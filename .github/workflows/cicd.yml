@@ -21,3 +21,7 @@ jobs:
         run: make format
       - name: deploy
         run: make deploy
+      - name: format
+        run: make format
+      - name: generate_and_push
+        run: make generate_and_push
