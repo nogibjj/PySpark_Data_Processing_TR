@@ -27,9 +27,6 @@ def log_output(operation, output, query=None):
         file.write(output)
         file.write("\n\n")
 
-
-
-
 def start_spark(appName):
     spark = SparkSession.builder.appName(appName).getOrCreate()
     return spark
