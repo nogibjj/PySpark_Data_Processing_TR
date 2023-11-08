@@ -1,16 +1,24 @@
 # IDS 706 Week 10 Mini-project:
-# PySpark Data Processiong
+# PySpark Data Processing
 Tianji Rao
 
-## Overview 
-In this project, we try to use PySpark to perform data processing on a large dataset. We also include data transformation and Spark query in this project. 
+## Overview
+The project entails leveraging PySpark for data processing on a sizable dataset. The primary goals involve integrating a Spark SQL query and executing a data transformation. I am utilizing a dataset on alcohol expense.
 
-## Preparation
-- Open a new code space and wait for its building
-- 
+## Preparation:
+1. open codespaces
+2. wait for environment to be built
+3. run main.py
 
-## Actions 
+## Some operations
 - `make install`
 - `make lint`
 - `make test`
 
+## Workflow
+extract -> start_spark -> load_data -> describe -> quert -> example_transform -> end_spark
+
+
+## References
+https://github.com/nogibjj/python-ruff-template
+https://github.com/fivethirtyeight
